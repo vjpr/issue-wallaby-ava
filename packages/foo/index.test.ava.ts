@@ -2,6 +2,6 @@ import test from 'ava'
 import index from './index'
 
 test('test', async t => {
-  console.log('hi')
+  console.error('hi')
   t.assert(false)
 })
