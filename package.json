@@ -1,0 +1,11 @@
+{
+  "name": "repo",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "ava": "^4.0.0-alpha.2",
+    "my-esm-loader": "workspace:^0.0.1",
+    "my-swc-compiler": "workspace:^0.1.0"
+  }
+}

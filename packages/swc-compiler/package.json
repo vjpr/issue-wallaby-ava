@@ -1,0 +1,8 @@
+{
+  "name": "my-swc-compiler",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@swc/core": "^1.2.92"
+  }
+}
