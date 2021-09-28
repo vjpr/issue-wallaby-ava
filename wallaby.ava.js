@@ -4,8 +4,8 @@ export default async w => {
   const esmLoaderUrl = await import.meta.resolve('my-esm-loader')
   const conf = {
     testFramework: 'ava',
-    files: ['**/*.ts', '**/package.json', '!**/index.test.ava.ts', '!**/node_modules', '!.dev'],
-    tests: ['**/index.test.ava.ts', '!**/node_modules', '!.dev'],
+    files: ['**/*.ts', '**/package.json', '!**/index.test.ava.ts', '!**/node_modules', '!.dev', '!.git'],
+    tests: ['**/index.test.ava.ts', '!**/node_modules', '!.dev', '!.git'],
     trace: true,
     preprocessors: {
       '**/*.ts': tsPreprocessor(w),
